@@ -33,7 +33,7 @@ SYSTEMS = [
         "kind": "API do app",
         # O app roda no celular, então checamos o backend/API que ele usa.
         # Ideal: um endpoint de health, ex.: /health ou /api/status
-        "url": "https://api.exemplo.com.br/health",  # <- troque pela URL real
+        "url": "https://www.estocafacil.com.br/estocai-api/(auth)/login",  # <- troque pela URL real
         "expect": 200,
     },
 ]
