@@ -36,6 +36,14 @@ SYSTEMS = [
         "url": "https://www.estocafacil.com.br/estocai-api/(auth)/login",  # <- troque pela URL real
         "expect": 200,
     },
+    {
+        "name": "Teste Site Globo",
+        "kind": "Site da Globo",
+        # O app roda no celular, então checamos o backend/API que ele usa.
+        # Ideal: um endpoint de health, ex.: /health ou /api/status
+        "url": "https://www.globo.com",  # <- troque pela URL real
+        "expect": 200,
+    },
 ]
 
 TIMEOUT_S = 10          # tempo máximo de espera por resposta
